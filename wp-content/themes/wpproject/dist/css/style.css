@@ -121,7 +121,6 @@ img {
 
 div {
   display: block;
-  align-items: center;
   margin: 0 auto;
 }
 
@@ -149,4 +148,23 @@ a, p {
 .logos {
   display: flex;
   padding-right: 0;
+}
+
+.breaking_news {
+  background-color: #C31815;
+  width: 90%;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  flex-wrap: wrap;
+}
+
+button {
+  color: #C31815;
+  background-color: white;
+  border-style: none;
+  height: 40px;
 }
