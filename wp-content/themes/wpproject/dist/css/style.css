@@ -1,0 +1,152 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.header {
+  padding: 20px 60px;
+}
+.header .container {
+  display: flex;
+  justify-content: space-around;
+}
+.header ul {
+  margin: 10px;
+  display: flex;
+}
+.header li {
+  line-height: 16px;
+  margin: 10px;
+  margin-right: 50px;
+}
+.header li:last-of-type {
+  margin-right: 0;
+}
+.header li:last-of-type a {
+  padding-right: 0;
+}
+.header li a {
+  font-weight: 600;
+  font-size: 16px;
+  color: #2A2A2A;
+  display: inline-block;
+  padding: 5px 10px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.header li a:hover {
+  color: #7e6f9e;
+}
+
+.footer {
+  background: #0E1E32;
+  padding: 30px 30px;
+  color: #FFF;
+}
+.footer .container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.copyright {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+div {
+  display: block;
+  align-items: center;
+  margin: 0 auto;
+}
+
+li {
+  list-style-type: none;
+}
+
+.options {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 30px;
+}
+
+a, p {
+  color: #FFF;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 10px 10px;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logos {
+  display: flex;
+  padding-right: 0;
+}

@@ -1,0 +1,57 @@
+.footer {
+    background: #0E1E32;
+    padding: 30px 30px;
+    color: #FFF;
+    .container {
+        display: flex;
+        justify-content: space-evenly;}
+        
+        
+}
+
+.copyright {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+div {
+    display: block;
+    align-items: center;
+    margin: 0 auto;
+    
+}
+
+li {
+    list-style-type: none;
+}
+
+
+.options {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
+a, p {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px 10px;
+    font-family: 'Poppins', sans-serif;
+    display:flex;
+    justify-content: space-between;
+}
+
+
+
+
+.logos{
+display: flex;
+padding-right:0;
+}
+
+
+
