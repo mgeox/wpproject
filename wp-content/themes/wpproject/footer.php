@@ -2,7 +2,7 @@
     <div class="container">
         <div class="copyright">
             <a href="/"><img src="<?= get_stylesheet_directory_uri() . "/images/white_logo.png" ?>" /></a>
-            <p>copyright &copy; 2020 || NBC NEWS</p>
+            <p>copyright &copy; 2020 | NBC NEWS</p>
             </div>
 
 <div>
@@ -15,6 +15,7 @@
 </div>
 
 <div>
+
 <div class="options">
 <p><a href="#">About</a></p>
 <p><a href="#">Contact</a></p>
