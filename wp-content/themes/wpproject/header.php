@@ -9,23 +9,24 @@
 
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
-
+<div class="container">
 	<header class="header">
-		<div class="container">
-        <a href="/"><img src="<?= get_stylesheet_directory_uri() . "/images/bbc_logo.png" ?>" /></a>
-			<ul>
-				<li><a href="#">Corona Updates</a></li>
-				<li><a href="#">Politics</a></li>
-				<li><a href="#">Business</a></li>
-				<li><a href="#">Sports</a></li>
-				<li><a href="#">World</a></li>
-                <li><a href="#">Travel</a></li>
-                <li><a href="#">Podcasts</a></li>
-                <li><a href="#"><i class="fas fa-angle-double-right" aria-hidden="false"></i></li>
-                <li><a href="#"><i class="fa fa-user-alt" aria-hidden="false"></i></li>
-                <li><a href="#"><i class="fas fa-search" aria-hidden="false"></i></li>
-                <li><a href="#"><i class="fas fa-bars" aria-hidden="false"></i></li>
-
-			</ul>
-		</div>
+		
+			<div class="row">
+				<div class="col-xs">
+						<a href="/"><img src="<?= get_stylesheet_directory_uri() . "/images/bbc_logo.png" ?>" /></a>
+						<a href="#">&#128308 Corona Updates</a>
+						<a href="#">Politics</a>
+						<a href="#">Business</a>
+						<a href="#">Sports</a>
+						<a href="#">World</a>
+						<a href="#">Travel</a>
+						<a href="#">Podcasts</a>
+						<a href="#"><i class="fas fa-angle-double-right" aria-hidden="false"></i>
+						<a href="#"><i class="fas fa-user-alt" aria-hidden="false"></i>
+						<a href="#"><i class="fas fa-search" aria-hidden="false"></i>
+						<a href="#"><i class="fas fa-bars" aria-hidden="false"></i>
+						</div>
+	</div>
+</div>
 	</header>

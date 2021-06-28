@@ -1,13 +1,24 @@
+
+
+
 .breaking_news {
+    display: block;
+    position: relative;
+    
+    
     background-color:#C31815;
-    width: 90%;
+    width: 100%;
     font-family:"Poppins", sans-serif; 
+    color: #fff;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     height: 60px;
     flex-wrap: wrap;
+    line-height: 15px;
+    font-size: 20px;
+  
     
 }
 
@@ -17,5 +28,5 @@ button {
     background-color: white;
     border-style: none;
     height: 40px;
-    
+    margin-right: 20px;
 }

@@ -1,19 +1,25 @@
 .footer {
+    display: block;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
     background: #0E1E32;
     padding: 30px 30px;
-    color: #FFF;
     .container {
         display: flex;
         justify-content: space-evenly;}
-        
-        
+        a, p {
+           color:#FFF;
+           padding: 10px 10px;
+           };    
+            
 }
 
 .copyright {
     display: flex;
-    flex-direction: column;
     align-items: center;
-    font-weight: 400;
+    font-size: 12px; 
 
 }
 
@@ -23,35 +29,33 @@ div {
     
 }
 
-li {
-    list-style-type: none;
+.columntwo {
+    display: flex;
+    flex-direction: column;
 }
 
 
 .options {
+    a{color:#FFF;}
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding-bottom: 30px;
-}
-
-a, p {
     color: #FFF;
-    font-size: 14px;
-    font-weight: 500;
-    padding: 10px 10px;
-    font-family: 'Poppins', sans-serif;
-    display:flex;
-    justify-content: space-between;
 }
 
 
+   
 
 
 .logos{
 display: flex;
-padding-right:0;
-align-items: flex-end;
+flex-direction: row-reverse;
+justify-content: flex end space-between;
+a {
+    margin-right: 10px;
+    margin-left: 10px;
+}
 }
 
 

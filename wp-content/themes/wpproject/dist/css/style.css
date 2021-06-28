@@ -57,7 +57,7 @@ table {
 }
 
 body {
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 
 a {
@@ -70,53 +70,53 @@ img {
 }
 
 .header {
-  padding: 20px 60px;
-}
-.header .container {
+  margin: 0 aut0;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  width: 100%;
 }
-.header ul {
-  margin: 10px;
-  display: flex;
+.header a {
+  margin-left: 40px;
+  margin-right: 40px;
 }
-.header li {
-  line-height: 16px;
-  margin: 10px;
-  margin-right: 50px;
-}
-.header li:last-of-type {
+.header a:last-of-type {
   margin-right: 0;
 }
-.header li:last-of-type a {
+
+a {
+  color: black;
+  margin-right: 20px;
+}
+a:last-of-type {
+  margin-right: 0;
   padding-right: 0;
 }
-.header li a {
-  font-weight: 600;
-  font-size: 16px;
-  color: #2A2A2A;
-  display: inline-block;
-  padding: 5px 10px;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-.header li a:hover {
-  color: #7e6f9e;
+a:hover {
+  background-color: #b2b5ca;
 }
 
 .footer {
+  display: block;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
   background: #0E1E32;
   padding: 30px 30px;
-  color: #FFF;
 }
 .footer .container {
   display: flex;
   justify-content: space-evenly;
 }
+.footer a, .footer p {
+  color: #FFF;
+  padding: 10px 10px;
+}
 
 .copyright {
   display: flex;
-  flex-direction: column;
   align-items: center;
+  font-size: 12px;
 }
 
 div {
@@ -124,8 +124,9 @@ div {
   margin: 0 auto;
 }
 
-li {
-  list-style-type: none;
+.columntwo {
+  display: flex;
+  flex-direction: column;
 }
 
 .options {
@@ -133,33 +134,37 @@ li {
   flex-direction: row;
   justify-content: space-between;
   padding-bottom: 30px;
-}
-
-a, p {
   color: #FFF;
-  font-size: 14px;
-  font-weight: 500;
-  padding: 10px 10px;
-  font-family: "Poppins", sans-serif;
-  display: flex;
-  justify-content: space-between;
+}
+.options a {
+  color: #FFF;
 }
 
 .logos {
   display: flex;
-  padding-right: 0;
+  flex-direction: row-reverse;
+  justify-content: flex end space-between;
+}
+.logos a {
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
 .breaking_news {
+  display: block;
+  position: relative;
   background-color: #C31815;
-  width: 90%;
+  width: 100%;
   font-family: "Poppins", sans-serif;
+  color: #fff;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   height: 60px;
   flex-wrap: wrap;
+  line-height: 15px;
+  font-size: 20px;
 }
 
 button {
@@ -167,4 +172,105 @@ button {
   background-color: white;
   border-style: none;
   height: 40px;
+  margin-right: 20px;
+}
+
+.trending {
+  width: 80%;
+  display: block;
+  position: relative;
+  padding: 20px;
+  align-items: center;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+.double-column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 2;
+}
+
+.blue-column {
+  margin-right: 0;
+  margin-left: 0;
+  margin-bottom: 20px;
+}
+.blue-column img {
+  border-radius: 4px;
+}
+
+.green-column {
+  height: 450px;
+  font-family: "IBM Plex Serif", "sans-serif";
+}
+.green-column h1 {
+  font-size: larger;
+  color: #C31815;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.green-column p {
+  font-size: 40px;
+  font-weight: 600;
+  font-family: "IBM Plex Serif", "sans-serif";
+  margin-bottom: 20px;
+}
+.green-column h3 {
+  font-family: "Poppins", "sans-serif";
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.popularity {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.social-icons {
+  margin: 0;
+  font-size: larger;
+  color: gray;
+}
+
+.card {
+  margin-top: 40px;
+  padding: 40px;
+  height: 300px;
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 20px;
+}
+
+.article-details {
+  margin-top: 40px;
+  margin-left: 5px;
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.article-details p {
+  font-family: "Poppins", "sans-serif";
+  font-size: 10px;
 }
