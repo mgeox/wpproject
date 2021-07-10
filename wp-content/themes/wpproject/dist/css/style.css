@@ -70,10 +70,9 @@ img {
 }
 
 .header {
-  margin: 0 aut0;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
-  width: 100%;
 }
 .header a {
   margin-left: 40px;
@@ -97,7 +96,6 @@ a:hover {
 
 .footer {
   display: block;
-  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -173,6 +171,15 @@ button {
   border-style: none;
   height: 40px;
   margin-right: 20px;
+}
+
+.editor-picks {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.editor-picks p {
+  font-family: "Poppins", "sans-serif";
+  font-size: 18;
 }
 
 .trending {
@@ -273,4 +280,50 @@ button {
 .article-details p {
   font-family: "Poppins", "sans-serif";
   font-size: 10px;
+}
+
+body {
+  background-color: #E5E5E5;
+}
+
+section {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-around;
+  padding: 20px 20px;
+}
+
+.box-content {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  border: 2px solid gray;
+  border-radius: 5px;
+  box-shadow: 2px 2px gray;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: "IBM Plex Serif", "sans-serif";
+  font-weight: 600;
+  font-size: 18px;
+}
+
+p {
+  font-family: "Nunito Sans", "sans-serif";
+  font-size: 15px;
+  line-height: 22px;
+}
+
+.article-details {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 20px;
 }
