@@ -3,6 +3,7 @@ body {
 }
 
 
+
 section {
 width: 100%;
 margin-top: 20px;
@@ -12,31 +13,69 @@ margin-top: 20px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   justify-content: space-around;
-  padding: 20px 20px;
-}
+  
+  }
+  
+
 
 .box-content {
-  margin-left:10px;
-  margin-right: 10px;
-  margin-bottom: 20px;
-  border: 2px solid  gray;
+  margin-left:15px;
+  margin-right: 15px;
+  margin-bottom: 30px;
   border-radius: 5px;
-  box-shadow: 2px 2px gray;
-  text-align: center;
-}
-
+  box-shadow: 5px 5px 5px 5px rgba(179, 182, 204, 0.5);
+  text-align: justify;
+  .popularity {
+    line-height: 20px;
+    padding-left: 20px;
+    padding-bottom: 30px;
+  }
+ 
+  img {
+width: 100%;  }
+&:nth-child(1) {
+  margin-left: 0;}
+  &:nth-child(4) {
+    margin-left: 0;}
+  
+  &:nth-child(3){
+    margin-top: 0px;
+    grid-column: 3/4;
+    grid-row: 1/4;
+    margin-left: 60px;
+    box-shadow: none;
+    border-radius: 0;
+    p{
+    padding-bottom:20px;
+    color: #C31815;
+    font-family: "Poppins", "sans-serif";
+    font-weight: 600;
+    font-size: 18px;
+    }} 
+  }
 
 
 
 
   h1 {
+    padding-left: 20px;
+    padding-right: 20px;
     margin-top: 20px;
     margin-bottom: 20px;;
     font-family: "IBM Plex Serif", "sans-serif";
     font-weight: 600;
     font-size: 18px;
   }
+
+  h3 {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: "Nunito Sans", "sans-serif";
+  }
+
   p {
+    padding-left: 20px;
+    padding-right: 20px;
     font-family: "Nunito Sans", "sans-serif";
     font-size: 15px;
     line-height: 22px;
@@ -50,4 +89,68 @@ margin-top: 20px;
 
   
 
+.social-icons {
+  font-size: 18px;
+}
 
+hr {
+  color: rgba(178, 181, 202, 0.5);
+}
+
+.location-news {
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: white;
+  margin-top: 20px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+
+
+.search {
+  button{
+    width: 40%;
+    background-color: #C31815;
+    color: white;
+    
+    margin-top:20px;
+    margin-bottom: 20px;
+    
+  }
+  margin-left: 20px;
+  margin-top:20px;
+  margin-right: 20px;
+  input{
+  width: 100%;
+  height: 50px;
+padding-left: 20px;}
+}
+
+.view-more {
+display: flex;
+justify-content: center;
+  button {
+  align-self: center;
+  border: 2px solid #C31815;
+  width: 15%;
+  height: 50px;
+  background-color: transparent;
+  font-family: "Poppins", "sans-serif";
+  font-size: 500;
+  margin-bottom: 20px;
+
+}}
+
+.categories {
+  width: 66%;
+  margin-left: 0;
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  p{
+  line-height: 50px;
+  font-family: "Poppins", "sans-serif";
+  font-size: 600;}
+margin-bottom: 20px;
+}
