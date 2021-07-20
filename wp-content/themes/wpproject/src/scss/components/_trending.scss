@@ -1,5 +1,6 @@
 
 .trending {
+  position: absolute;
   width: 80%;  
   display: block;
   position: relative;
@@ -9,6 +10,8 @@
   margin-bottom: 30px;
  
 }
+
+
 
 .row {
   display: flex;
@@ -103,3 +106,4 @@
     font-family: "Poppins", "sans-serif";
     font-size: 10px;}
 }
+

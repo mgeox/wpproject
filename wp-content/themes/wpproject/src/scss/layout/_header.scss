@@ -1,26 +1,19 @@
 .header {
+    width: 100%;
     background-color: white;
-    padding-bottom: 20px;
     padding-top: 10px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    
-    a{
-      margin-left: 40px;
-      margin-right: 40px;
-      &:last-of-type {
-        margin-right: 0;      
-    }
-}
+    display: inline-flex;
+    justify-content: space-around;
+//     a{
+//       margin-left: 40px;
+//       margin-right: 40px;
+      
+// }
 }
 a {
     color: black;
-    margin-right: 20px;
-    &:last-of-type {
-        margin-right: 0;
-        padding-right: 0;
-    }
+    display: inline-flex;
+    justify-content: space-around;
     
     &:hover {
         background-color: rgb(178, 181, 202);

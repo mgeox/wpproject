@@ -11,21 +11,23 @@
 <?php wp_body_open(); ?>
 <div class="container">
 	<header class="header">
-		
+	
 			<div class="row">
-				<div class="col-xs">
-						<a href="/"><img src="<?= get_stylesheet_directory_uri() . "/images/bbc_logo.png" ?>" /></a>
-						<a href="#">&#128308 Corona Updates</a>
-						<a href="#">Politics</a>
-						<a href="#">Business</a>
-						<a href="#">Sports</a>
-						<a href="#">World</a>
-						<a href="#">Travel</a>
-						<a href="#">Podcasts</a>
-						<a href="#"><i class="fas fa-angle-double-right" aria-hidden="false"></i>
-						<a href="#"><i class="fas fa-user-alt" aria-hidden="false"></i>
-						<a href="#"><i class="fas fa-search" aria-hidden="false"></i>
-						<a href="#"><i class="fas fa-bars" aria-hidden="false"></i>
+				<?php if ( has_custom_logo() ) : ?>
+				<div class="site-logo"><?php the_custom_logo(); ?></div>
+			<?php endif; ?>
+					
+
+						<?php if (has_nav_menu('menu')): ?>
+				<nav class="menu">
+					<?php
+					wp_nav_menu([
+						'theme_location' => 'menu'
+					]);
+					?>
+				</nav>
+			<?php endif ?>
+
 						</div>
 	</div>
 </div>
