@@ -1,24 +1,43 @@
-.header {
-    width: 100%;
-    background-color: white;
-    padding-top: 10px;
-    display: inline-flex;
-    justify-content: space-around;
-//     a{
-//       margin-left: 40px;
-//       margin-right: 40px;
-      
-// }
+.header .li {
+margin-right: 40px;
+width: 90%;
+padding-top: 10px;
+display: inline-block;  
+color: black;
+margin-bottom: 20px;
 }
 a {
+    padding-top: 20px;
+    font-family: "Poppins", "sans-serif";
     color: black;
-    display: inline-flex;
     justify-content: space-around;
-    
+    margin-right: 50px;
+    margin-left: 50px;    
     &:hover {
-        background-color: rgb(178, 181, 202);
-        
-    }
-    
+        background-color: rgb(178, 181, 202);}}
+ #media_image-2 {
+padding-left: 90px;} 
+.site-logo {
+    margin-left: 40px;
+    margin-right: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.header {
+    background-color: white;
+    position:sticky;
+
+.menu {
+    display: flex;
+    align-self:center;
+    justify-content: space-between;
+   
 }
 
+.menu-navigation-container {
+    color: black;
+    margin-right: 0;
+    margin-right: 40px;
+    padding-right: 30px;
+    padding-left: 70px;
+}}

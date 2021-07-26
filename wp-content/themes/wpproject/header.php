@@ -24,11 +24,12 @@
 					wp_nav_menu([
 						'theme_location' => 'menu'
 					]);
-					?>
+					// ?>
 				</nav>
 			<?php endif ?>
 
 						</div>
 	</div>
 </div>
+				</div>
 	</header>

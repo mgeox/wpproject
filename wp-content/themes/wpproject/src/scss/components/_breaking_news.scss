@@ -1,29 +1,30 @@
 .breaking_news {
     display: block;
     position: relative;
-    
-    
     background-color:#C31815;
-    width: 100%;
+    width: 80%;
+    padding: 20px;
     font-family:"Poppins", sans-serif; 
     color: #fff;
     display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: center;
     height: 60px;
     flex-wrap: wrap;
-    line-height: 15px;
+    line-height: 30px;
     font-size: 20px;
   
     
 }
 
 button {
-    
+    position: relative;
+    font-size: 20px;
+    margin-bottom: 20px;
     color:#C31815;
     background-color: white;
     border-style: none;
-    height: 40px;
     margin-right: 20px;
+    line-height: 20px;
+    height: 30px;
 }

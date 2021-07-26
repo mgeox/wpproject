@@ -1,4 +1,7 @@
 .footer {
+    p {
+        font-size: 30px;
+    }
     display: block;
     left: 0;
     bottom: 0;
@@ -28,34 +31,21 @@ div {
     
 }
 
-.columntwo {
-    display: flex;
-    flex-direction: column;
-}
 
-
-.options {
+.widget_text {
     a{color:#FFF;}
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-bottom: 30px;
     color: #FFF;
+font-family: "Poppins", "sans-serif";
+font-weight: 400;
 }
+
 
 
    
 
-
-.logos{
-display: flex;
-flex-direction: row-reverse;
-justify-content: flex end space-between;
-a {
-    margin-right: 10px;
-    margin-left: 10px;
-}
-}
 
 
 
